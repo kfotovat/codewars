@@ -1,0 +1,16 @@
+/Users/karl/dev/cpp/number_guesser/main.cpp:21:16: warning: multi-character character constant [-Wmultichar]
+        system('cls')
+               ^
+/Users/karl/dev/cpp/number_guesser/main.cpp:21:9: error: no matching function for call to 'system'
+        system('cls')
+        ^~~~~~
+/usr/include/stdlib.h:177:6: note: candidate function not viable: no known conversion from 'int' to 'const char *' for 1st argument
+int      system(const char *) __DARWIN_ALIAS_C(system) __OSX_AVAILABLE_BUT_DEPRECATED_MSG(__MAC_10_0,__MAC_NA,__IPHONE_2_0,__IPHONE_8_0, "Use posix_spawn APIs instead.") __WATCHOS_PROHIBITED __TVOS_PROHIBITED;
+         ^
+/Users/karl/dev/cpp/number_guesser/main.cpp:58:10: error: use of undeclared identifier 'rangeChoice'
+  cin >> rangeChoice;
+         ^
+/Users/karl/dev/cpp/number_guesser/main.cpp:59:10: error: use of undeclared identifier 'rangeChoice'
+  return rangeChoice;
+         ^
+1 warning and 3 errors generated.

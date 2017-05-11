@@ -1,0 +1,47 @@
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:1:17: warning: using directive refers to implicitly-defined namespace 'std'
+using namespace std;
+                ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:5:3: error: unknown type name 'vector'
+  vector<int> int_array;
+  ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:5:9: error: expected member name or ';' after declaration specifiers
+  vector<int> int_array;
+  ~~~~~~^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:6:3: error: unknown type name 'vector'
+  vector convert_to_arr(int n);
+  ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:12:3: error: use of undeclared identifier 'int_array'
+  int_array = convert_to_arr(n);
+  ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:12:15: error: use of undeclared identifier 'convert_to_arr'
+  int_array = convert_to_arr(n);
+              ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:13:10: error: use of undeclared identifier 'int_array'
+  return int_array;
+         ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:16:1: error: unknown type name 'vector'
+vector convert_to_arr(int n) {
+^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:17:3: error: unknown type name 'vector'
+  vector output = [];
+  ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:17:19: error: expected expression
+  vector output = [];
+                  ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:21:5: error: use of undeclared identifier 'digit'
+    digit = n%10;
+    ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:22:22: error: use of undeclared identifier 'digit'
+    output.push_back(digit);
+                     ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:29:3: error: use of undeclared identifier 'cout'
+  cout << DigPow(4321, 3);
+  ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:29:11: error: no matching constructor for initialization of 'DigPow'
+  cout << DigPow(4321, 3);
+          ^      ~~~~~~~
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:2:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 2 were provided
+class DigPow
+      ^
+/Users/karl/dev/cpp/codewars/digpow/main.cpp:2:7: note: candidate constructor (the implicit default constructor) not viable: requires 0 arguments, but 2 were provided
+1 warning and 13 errors generated.
